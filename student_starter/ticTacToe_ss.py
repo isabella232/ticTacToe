@@ -67,19 +67,11 @@ def main():
     freeSpaces = [(n, m) for n in range(1,4) for m in range(1, 4)]
     turn = 1
 
-    while (False):
-        if (False):
-            # TODO winner
-            return
-        elif (False):
-            # TODO tie
-            return
-        if (False):
-            # TODO player moves
-            return
-        else: # use random.choice() to pick the cpu's move
-            # TODO computer moves
-            return
+    while (True):
+        # print the board
 
-        turn += 1
+        # check for winner or tie
+
+        # move (turns should alternate between player and computer)
+
         break # TODO placeholder to prevent infinite loop (remove this when done)
